@@ -16,9 +16,13 @@ public class feedme2 {
         //Making new Scanner class object, stored in the variable input
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Please enter dinner option #1");
-        answer = sc.nextLine();
-        Dinner.add(answer);
+        for (let i = 0, len = Dinner.length; i <= len; i++)
+
+                System.out.println("Please enter dinner option #1");
+            answer = sc.nextLine();
+            Dinner.add(answer);
+        }
+
 
     }
 }
