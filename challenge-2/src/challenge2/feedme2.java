@@ -6,8 +6,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class feedme2 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // creating ArrayList
         ArrayList<String> Dinner = new ArrayList<String>();
 
@@ -20,7 +19,7 @@ public class feedme2 {
             String answer = sc.nextLine();
             Dinner.add(answer);
             i++;
-        }
+
 
             //Randomizing to print output
             Random r = new Random();
@@ -32,3 +31,4 @@ public class feedme2 {
 
         }
     }
+}
