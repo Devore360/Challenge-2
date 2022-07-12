@@ -14,10 +14,13 @@ public class feedme2 {
         //Making new Scanner class object, stored in the variable input
         Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < 3; i++) {
+        int i = 0;
+        while (i < 3) {
             System.out.println("Please enter dinner option #" + (i + 1));
             String answer = sc.nextLine();
             Dinner.add(answer);
+            i++;
+        }
 
             //Randomizing to print output
             Random r = new Random();
@@ -29,4 +32,3 @@ public class feedme2 {
 
         }
     }
-}
