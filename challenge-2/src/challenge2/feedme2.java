@@ -4,8 +4,6 @@ package challenge2;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Collection;
-import java.util.Iterator;
 
 public class feedme2 {
     public static void main(String[] args)
@@ -16,15 +14,13 @@ public class feedme2 {
         //Making new Scanner class object, stored in the variable input
         Scanner sc = new Scanner(System.in);
 
-        for (let i = 0, len = Dinner.length; i <= len; i++)
-
-                System.out.println("Please enter dinner option #1");
-            answer = sc.nextLine();
+        for (int i = 0; i < 3; i++)
+        {
+                System.out.println("Please enter dinner option #"+(i+1));
+            String answer = sc.nextLine();
             Dinner.add(answer);
         }
 
 
     }
 }
-    }
-            }
